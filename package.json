@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "dev": "next -p 80",
+    "build": "next build",
+    "start": "next start -p 80"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "dotenv": "^8.2.0",
+    "formhero": "^0.0.7",
+    "formidable": "^1.2.1",
+    "next": "^9.1.7",
+    "nodemailer": "^6.4.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tachyons": "^4.11.1",
+    "three": "^0.112.1"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-stylus": "^1.0.1",
+    "@types/formidable": "^1.0.31",
+    "@types/node": "^13.1.6",
+    "@types/nodemailer": "^6.4.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "stylus": "^0.54.7",
+    "typescript": "^3.7.4"
+  }
+}
