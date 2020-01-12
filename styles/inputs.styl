@@ -1,0 +1,39 @@
+@require './utils.styl'
+
+textarea
+    resize: vertical
+    max-height: 8em
+    min-height: 2em
+
+input, textarea, label.file
+    display: inline-block
+    width: 100%
+    padding: .25em 0 
+    margin: 0
+    margin-bottom: 1em
+    background: none
+    outline: none
+    border: none
+    color: inherit
+    border-bottom: 2px solid
+    cursor: pointer
+    
+    underline()
+
+    &::placeholder
+        color: #bbb
+
+    &[type="submit"], &[type="button"], &.file
+        padding: .5em 1em
+        width: initial
+        border: 2px solid
+        margin-bottom: 0
+        margin-top: .5em
+    
+    &[type="file"]
+        display: none
+
+label
+    &>small 
+        // font-size: 1em
+        font-weight: bold

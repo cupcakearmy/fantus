@@ -1,0 +1,42 @@
+@require './backgorund.styl'
+@require './content.styl'
+@require './form.styl'
+@require './inputs.styl'
+@require './menu.styl'
+@require './sets.styl'
+@require './utils.styl'
+
+*
+    font-smooth: auto
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: auto
+
+html
+    margin: 0
+    padding: 0
+    overflow: hidden
+    // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    // font-family: 'Nunito', sans-serif
+    font-family: 'Space Mono', monospace
+    background-color: #000000
+
+.grecaptcha-badge
+	visibility: hidden
+
+.grc
+    font-size: .75em
+    color: #fffd
+    max-width: 35em
+    padding: .5em
+    border: 2px solid
+    margin-top: .5em
+
+a
+    color: inherit;
+    text-decoration: inherit;
+    margin-top: .5em;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+
+    underline()
