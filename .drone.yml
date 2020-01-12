@@ -1,0 +1,34 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: node:alpine
+    pull: always
+    commands:
+      - node -v
+      - yarn -v
+      - yarn
+      - yarn run build
+
+  - name: deploy
+    image: cupcakearmy/drone-deploy
+    pull: always
+    environment:
+      PLUGIN_KEY:
+        from_secret: ssh_key
+    settings:
+      host: fantus.studio
+      user: root
+      port: 1312
+      target: /srv/web/fantus
+      sources:
+        - ./docker-compose.prod.yml
+        - ./package.json
+        - ./next.config.js
+        - ./.next
+      commands:
+        - docker-compose -f docker-compose.prod.yml up -d --build
+    when:
+      event: push
+      branch: master

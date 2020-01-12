@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+
+  front:
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./.next:/app/.next:ro

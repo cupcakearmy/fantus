@@ -1,0 +1,22 @@
+version: '3.7'
+
+networks:
+  traefik:
+    external: true
+
+services:
+
+  front:
+    build: .
+    ports:
+      - 80
+    volumes:
+      - ./.next:/app/.next
+    networks:
+      - traefik
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.backend=fantus'
+      - 'traefik.docker.network=traefik'
+      - 'traefik.frontend.rule=Host:fantus.studio'
+      - 'traefik.port=80'
