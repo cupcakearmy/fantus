@@ -25,6 +25,7 @@ steps:
       sources:
         - ./Dockerfile
         - ./docker-compose.prod.yml
+        - ./yarn.lock
         - ./package.json
         - ./next.config.js
         - ./.next
