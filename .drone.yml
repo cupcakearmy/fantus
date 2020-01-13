@@ -23,6 +23,7 @@ steps:
       port: 1312
       target: /srv/web/fantus
       sources:
+        - ./Dockerfile
         - ./docker-compose.prod.yml
         - ./package.json
         - ./next.config.js
