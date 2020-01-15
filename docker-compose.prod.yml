@@ -10,8 +10,6 @@ services:
     build: .
     ports:
       - 80
-    volumes:
-      - ./.next:/app/.next
     networks:
       - traefik
     labels:
