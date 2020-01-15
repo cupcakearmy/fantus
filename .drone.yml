@@ -2,14 +2,14 @@ kind: pipeline
 name: default
 
 steps:
-  - name: build
-    image: node:alpine
-    pull: always
-    commands:
-      - node -v
-      - yarn -v
-      - yarn
-      - yarn run build
+  # - name: build
+  #   image: node:alpine
+  #   pull: always
+  #   commands:
+  #     - node -v
+  #     - yarn -v
+  #     - yarn
+  #     - yarn run build
 
   - name: deploy
     image: cupcakearmy/drone-deploy
@@ -27,8 +27,13 @@ steps:
         - ./docker-compose.prod.yml
         - ./yarn.lock
         - ./package.json
+        - ./tsconfig.json
         - ./next.config.js
-        - ./.next
+        - ./components
+        - ./pages
+        - ./public
+        - ./screens
+        - ./styles
       commands:
         - docker-compose -f docker-compose.prod.yml up -d --build
     when:
