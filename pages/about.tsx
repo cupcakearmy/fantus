@@ -13,10 +13,12 @@ const Home = () => {
 
             </p>
             <p>
-                <a target='_blank' href='https://www.mixcloud.com/fantus/'>MixCloud</a>
+                <a target='_blank' href='https://www.mixcloud.com/fantus/'>mixcloud</a>
                 <br />
-                <a target='_blank' href='https://soundcloud.com/fantus_music'>SoundCloud</a>
+                <a target='_blank' href='https://soundcloud.com/fantus_music'>soundcloud</a>
                 <br />
+                <br />
+                <a target='_blank' href='mailto:hi@fantus.studio'>contact email</a>
             </p>
             <br />
             <p>
