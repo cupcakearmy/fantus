@@ -21,6 +21,8 @@ export default class extends App {
                     <title>fantus</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta charSet="utf-8" />
+                    <meta name="description" content="fantus - producer, dj, engineer" />
+                    <meta name="keywords" content="dj,producer,mastering,service,free,sets,mix,techno,music,set" />
                     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet" />
                     <script src={'https://www.google.com/recaptcha/api.js?render=' + RECAPTCHA_CLIENT}></script>
                 </Head>
