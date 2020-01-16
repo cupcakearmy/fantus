@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "next -p 80",
-    "build": "rm -rf .next && next build && rm -rf .next/cache",
+    "build": "next build",
     "start": "next start -p 80"
   },
   "dependencies": {

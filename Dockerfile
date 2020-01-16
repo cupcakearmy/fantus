@@ -6,8 +6,6 @@ COPY package.json .
 COPY yarn.lock .
 RUN yarn
 
-VOLUME .next
-
 COPY . ./
 RUN yarn run build
 
