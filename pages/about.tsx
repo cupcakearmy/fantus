@@ -17,6 +17,8 @@ const Home = () => {
                 <br />
                 <a target='_blank' href='https://soundcloud.com/fantus_music'>soundcloud</a>
                 <br />
+                <a target='_blank' href='https://www.instagram.com/fantus.studio/'>instagram</a>
+                <br />
                 <br />
                 <a target='_blank' href='mailto:hi@fantus.studio'>contact email</a>
             </p>
