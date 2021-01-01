@@ -4,5 +4,4 @@ Website for fantus
 
 ## Stack
 
-- nextjs
-- directus headless cms
+Next.js hosted on Vercel

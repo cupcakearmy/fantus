@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react'
-import { PerspectiveCamera, Scene, BufferGeometry, BufferAttribute, ShaderMaterial, Color, Points, WebGLRenderer, Camera } from 'three'
+import { PerspectiveCamera, Scene, BufferGeometry, BufferAttribute, ShaderMaterial, Color, Points, WebGLRenderer } from 'three'
 
 import '../styles/backgorund.styl'
 
-// const SEPARATION = 150, AMOUNTX = 200, AMOUNTY = 200, HEIGHT = 75
 const SEPARATION = 150, AMOUNTX = 50, AMOUNTY = 50, HEIGHT = 75
 
 let container: HTMLElement | null
