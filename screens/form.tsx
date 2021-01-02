@@ -108,7 +108,7 @@ const Form: React.FC = () => {
           <input type="file" multiple disabled={loading} onChange={_onFileChange} />
           upload tracks [max. 300MiB]
         </label>
-        {files.length > 0 && (
+        {/* {files.length > 0 && (
           <div>
             <input onClick={_clear} type="button" value="clear all" />
             <ul>
@@ -117,7 +117,7 @@ const Form: React.FC = () => {
               ))}
             </ul>
           </div>
-        )}
+        )} */}
         <br />
         <input type="submit" value={loading ? 'uploading...' : 'submit'} disabled={loading} />
 
