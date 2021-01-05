@@ -5,7 +5,7 @@
     "start": "next start -p 80"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "formhero": "^0.0.7",
     "formidable": "^1.2.1",
     "next": "^10.0.4",
