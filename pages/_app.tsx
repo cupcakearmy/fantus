@@ -4,7 +4,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 
 import 'tachyons/css/tachyons.min.css'
-import '../styles/app.styl'
+import './_app.css'
 import Menu from '../screens/menu'
 import Content from '../components/content'
 

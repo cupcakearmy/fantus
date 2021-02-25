@@ -2,8 +2,6 @@ import React, { useState, useCallback } from 'react'
 
 import Link from '../components/link'
 
-import '../styles/menu.styl'
-
 const HomeLink = () => (
   <div className="home">
     <Link href="/">
