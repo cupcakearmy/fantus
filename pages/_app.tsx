@@ -25,6 +25,12 @@ export default class extends App {
           <script
             src={'https://www.google.com/recaptcha/api.js?render=' + process.env.NEXT_PUBLIC_RECAPTCHA_CLIENT}
           ></script>
+          <script
+            async
+            defer
+            data-website-id="65249a64-7eca-4e98-9eed-0ca2acf7efa2"
+            src="https://spectare.nicco.io/unicorn.js"
+          ></script>
         </Head>
         <Menu />
         <Background />
