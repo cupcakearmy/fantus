@@ -12,7 +12,7 @@
     "react": "^17",
     "react-dom": "^17",
     "tachyons": "^4",
-    "three": "^0.116"
+    "three": "^0.137"
   },
   "devDependencies": {
     "@types/formidable": "^1",
